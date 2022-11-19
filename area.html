@@ -4,7 +4,7 @@
 <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
-     <title>Is Triangle📐?</title>
+     <title>Area</title>
      <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -17,29 +17,28 @@
 
           <div class="uList">
                <ul class="nav-list">
-                    <li class="nav-item "><a class="active" href="#">is Triangle?</a></li>
+                    <li class="nav-item"><a href="./index.html">is Triangle?</a></li>
                     <li class="nav-item"><a href="/quiz.html">Quiz</a></li>
-                    <li class="nav-item"><a href="./hypotenuse.html">Hyptoneues</a></li>
-                    <li class="nav-item"><a href="area.html">Area</a></li>
+                    <li class="nav-item"><a href="/hypotenuse.html">Hyptoneues</a></li>
+                    <li class="nav-item"><a class="active" href="/area.html">Area</a></li>
                </ul>
           </div>
      </nav>
 
      <!-- main -->
      <div class="container">
-          <h1>is Triangle?</h1>
+          <h1>Area</h1>
+          <p>The area of a triangle is the space it occupies. The area of a triangle is half the product of its base and height.</p>
           <div class="input-area">
-               <label for="angle1">Angle - 1 (in Degrees) <span>*</span></label>
-               <input type="number" id="angle1" name="angle1" required>
-               <label for="angle2">Angle - 2 (in Degrees) <span>*</span></label>
-               <input type="number" id="angle2" name="angle2" required>
-               <label for="angle3">Angle - 3 (in Degrees) <span>*</span></label>
-               <input type="number" id="angle3" name="angle3" required>
+               <label for="base">Base <span>*</span></label>
+               <input type="number" id="base" name="base" required>
+               <label for="height">Height <span>*</span></label>
+               <input type="number" id="height" name="height" required>
                <button type="submit" class="btn-reset btn" id="check">Check</button>
           </div>
           <div class="show hide">
                <div class="output-area">
-                    <p id="result-text">Yes, the angles form a triangle 🫡</p>
+                    <p id="result-text"></p>
                     <button type="button" class="btn-reset btn" id="back">Back</button>
                </div>
           </div>
@@ -62,7 +61,7 @@
                          src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="linkedin"></a>
           </div>
      </footer>
-     <script src="/js/script.js"></script>
+     <script src="/js/area.js"></script>
 </body>
 
 </html>

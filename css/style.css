@@ -16,15 +16,19 @@ body {
 /* Navbar */
 
 nav {
-     justify-content: space-around;
+     padding: 0 20px;
+     justify-content: space-between;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      align-items: center;
      border-bottom-left-radius: 20px;
      border-bottom-right-radius: 20px;
      height: 110px;
      background-color: var(--bg-color);
+     flex-wrap: wrap;
+     align-content: space-around;
 }
+
 
 
 .logo a {
@@ -33,6 +37,7 @@ nav {
      font-size: 1.5rem;
      font-weight: 700;
 }
+
 
 .nav-list li {
      display: inline-block;
@@ -67,8 +72,12 @@ nav {
      margin-top: 20px;
      border-radius: 20px;
      height: 60vh;
+     padding: 10px;
 }
 
+h1 {
+     margin-bottom: 10px;
+}
 .input-area,
 .output-area {
      display: flex;
@@ -96,7 +105,11 @@ input[type="radio"] {
 span {
      color: red;
 }
-
+#result-text {
+     margin: 20px;
+     font-size: 1.5rem;
+     font-weight: 700;
+}
 .btn {
      width: 200px;
      padding: 10px;

@@ -19,16 +19,18 @@ body {
 /* Navbar */
 
 nav {
-     justify-content: space-around;
+     padding: 0 20px;
+     justify-content: space-between;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      align-items: center;
      border-bottom-left-radius: 20px;
      border-bottom-right-radius: 20px;
      height: 110px;
      background-color: var(--bg-color);
+     flex-wrap: wrap;
+     align-content: space-around;
 }
-
 
 .logo a {
      color: var(--text-black);
@@ -62,7 +64,6 @@ nav {
 /* Main */
 
 .container {
-     /* background-color: var(--bg-color); */
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -71,6 +72,9 @@ nav {
      border-radius: 20px;
 }
 
+h1{
+     margin-bottom: 10px;
+}
 .question-area {
      padding: 10px;
 }

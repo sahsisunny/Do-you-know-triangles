@@ -1,0 +1,162 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     box-sizing: border-box;
+}
+
+/* Navbar */
+
+nav {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo a {
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-size: 1.5rem;
+     font-weight: 700;
+}
+
+.nav-list li {
+     display: inline-block;
+     margin: 20px 5px;
+
+}
+
+.nav-list li a {
+     text-decoration: none;
+     color: black;
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.nav-list li a:hover {
+     background: rgb(0, 0, 0);
+     box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+     color: white;
+}
+
+.active {
+     box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+
+
+/* Main */
+
+.container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+}
+
+.row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 80%;
+}
+
+
+.area {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     margin-top: 20px;
+     border-radius: 20px;
+}
+
+.input-area,
+.output-area {
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     min-width: 80vh;
+}
+
+input {
+     width: 200px;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 10px;
+}
+
+.btn {
+     width: 200px;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 10px;
+     background: rgb(0, 0, 0);
+     color: white;
+     font-weight: 700;
+     border: none;
+     cursor: pointer;
+}
+
+.btn:hover {
+     box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+.hide {
+     display: none;
+}
+
+
+/* Footer */
+.social-button {
+     padding: 5px;
+}
+
+.social img:hover {
+     padding: 5px;
+     border-radius: 50%;
+     box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+
+.social img {
+     width: 30px;
+}
+
+.devloper a {
+     text-decoration: none;
+     color: #000000;
+}
+
+
+span {
+     color: red;
+}
+
+
+
+footer {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     width: auto;
+     padding-top: 20px;
+     padding-bottom: 10px;
+
+}
